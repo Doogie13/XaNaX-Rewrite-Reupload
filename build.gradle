@@ -2,7 +2,7 @@ buildscript {
     repositories {
         jcenter()
         maven { url = "https://files.minecraftforge.net/maven" }
-        maven { url = "http://repo.spongepowered.org/maven" }
+        maven { url = "https://repo.spongepowered.org/maven" }
     }
     dependencies {
         classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
@@ -31,7 +31,7 @@ minecraft {
 }
 
 
-repositories { maven { url = "http://repo.spongepowered.org/maven/" } }
+repositories { maven { url = "https://repo.spongepowered.org/maven/" } }
 
 dependencies {
     compile("org.spongepowered:mixin:0.7.4-SNAPSHOT") {
